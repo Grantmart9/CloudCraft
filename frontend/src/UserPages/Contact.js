@@ -13,7 +13,6 @@ import {
 const topPageMax = 100;
 
 export const Contact = () => {
-  const [imageIndex, setImageIndex] = useState(0);
   const [y, setY] = useState(window.scrollY);
 
   useEffect(() => {

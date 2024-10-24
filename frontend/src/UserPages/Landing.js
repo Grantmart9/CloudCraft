@@ -14,6 +14,7 @@ const topPageMax = 100;
 
 export const Landing = () => {
   const [y, setY] = useState(window.scrollY);
+  var size = Size();
 
   useEffect(() => {
     const handleScroll = () => setY(window.scrollY);
