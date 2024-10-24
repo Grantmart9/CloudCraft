@@ -6,9 +6,10 @@ import IconButton from "@mui/material/IconButton";
 import Container from "@mui/material/Container";
 import { topbarbgcolor } from "./feutures";
 
+
 export const TopBar = ({ setTopBarOn }) => {
   const [y, setY] = useState(window.scrollY);
-
+ 
   const handleNavigation = useCallback(
     (e) => {
       const newY = window.scrollY;
@@ -54,7 +55,9 @@ export const TopBar = ({ setTopBarOn }) => {
           <MenuIcon />
         </IconButton>
         <Container>
-          <div className="text-gray-light text-center font-bold text-3xl">CloudCraft</div>
+          <div className="text-gray-light text-center font-bold text-3xl mr-20">
+            CloudCraft
+          </div>
         </Container>
       </Toolbar>
     </AppBar>
