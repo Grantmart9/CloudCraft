@@ -19,14 +19,13 @@ import web1 from "Images/website1.png";
 import web2 from "Images/website2.png";
 import web3 from "Images/website3.png";
 import web4 from "Images/website4.png";
-
-const topPageMax = 100;
+import webVid1 from "Videos/web1.mp4";
 
 const SolutionContext = () => {
   return (
     <div>
       <Card sx={{ bgcolor: "#7d9db5" }}>
-        <div className="grid grid-cols-4 p-2">
+        <div className="grid md:grid-cols-4 p-2">
           <CardMedia sx={{ height: 250 }} image={web1} />
           <CardMedia sx={{ height: 250 }} image={web2} />
           <CardMedia sx={{ height: 250 }} image={web3} />
@@ -52,40 +51,29 @@ const SolutionContext = () => {
             Lambda to build and deploy applications that are not only scalable
             but also cost-effective. Our expertise in Elastic Load Balancing,
             CloudWatch, EventBridge, Auto Scaling, and VPC enables us to create
-            resilient infrastructures that adapt to your changing needs. At
-            CloudCraft, we are dedicated to delivering comprehensive web
-            solutions that drive business success. Whether you’re looking to
-            develop a new application, enhance an existing one, or migrate to
-            the cloud, our skilled team is here to support you every step of the
-            way. Let us help you transform your vision into reality and create
-            digital experiences that resonate with your audience.
+            resilient infrastructures that adapt to your changing needs.
           </Typography>
         </CardContent>
-        <CardActions>
-          <Button size="small">Share</Button>
-          <Button size="small">Learn More</Button>
-        </CardActions>
+        <video
+          className="w-screen p-2 rounded-md"
+          autoPlay
+          loop
+          src={webVid1}
+          type="video/mp4"
+        />
       </Card>
     </div>
   );
 };
 
 export const Solutions = () => {
-  const [y, setY] = useState(window.scrollY);
-
-  useEffect(() => {
-    const handleScroll = () => setY(window.scrollY);
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
-
   useEffect(() => {
     window.scrollTo({ top: 0, left: 0, behavior: "smooth" });
   }, []);
 
   return (
     <div className="block h-auto">
-      <Fade in={y < topPageMax} timeout={1000}>
+      <Fade in={true} timeout={1000}>
         <h1
           style={{ color: pagetitlecolor, fontFamily: fontType }}
           className="text-center font-bold text-3xl mt-16 pt-2"
@@ -93,7 +81,7 @@ export const Solutions = () => {
           Solutions
         </h1>
       </Fade>
-      <Fade in={y < topPageMax} timeout={1500}>
+      <Fade in={true} timeout={1500}>
         <div className="flex text-center justify-center p-2">
           <SolutionContext />
         </div>

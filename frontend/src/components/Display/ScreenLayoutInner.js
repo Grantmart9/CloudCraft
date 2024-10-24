@@ -1,9 +1,9 @@
 import React from "react";
 import { BrowserRouter as Route, Switch } from "react-router-dom";
-import { Landing } from "UserPages/Landing";
-import { About } from "UserPages/About";
-import { Contact } from "UserPages/Contact";
-import { Solutions } from "UserPages/Solutions";
+import { Landing } from "Pages/Landing";
+import { About } from "Pages/About";
+import { Contact } from "Pages/Contact";
+import { Solutions } from "Pages/Solutions";
 import { Routes } from "components/Routes";
 
 export const ScreenLayoutInner = () => {

@@ -37,16 +37,12 @@ export const Landing = () => {
         </h1>
       </Fade>
       <div className="flex text-center justify-center p-2">
-        Environmental security focuses on safeguarding the natural environment
-        to ensure a healthy, sustainable quality of life for current and future
-        generations. It involves protecting ecosystems, ensuring access to clean
-        air, water, and soil, and mitigating the impacts of climate change and
-        pollution. By promoting sustainable practices, effective waste
-        management, and conservation efforts, environmental security aims to
-        prevent environmental degradation and enhance resilience against natural
-        disasters. This holistic approach ensures that communities can thrive in
-        a safe and stable environment, supporting both ecological balance and
-        human well-being.
+        At CloudCraft, we are dedicated to delivering comprehensive web
+        solutions that drive business success. Whether you’re looking to develop
+        a new application, enhance an existing one, or migrate to the cloud, our
+        skilled team is here to support you every step of the way. Let us help
+        you transform your vision into reality and create digital experiences
+        that resonate with your audience.
       </div>
     </div>
   );

@@ -6,26 +6,7 @@ import IconButton from "@mui/material/IconButton";
 import Container from "@mui/material/Container";
 import { topbarbgcolor } from "./feutures";
 
-
 export const TopBar = ({ setTopBarOn }) => {
-  const [y, setY] = useState(window.scrollY);
- 
-  const handleNavigation = useCallback(
-    (e) => {
-      const newY = window.scrollY;
-      setTopBarOn(newY < y);
-      setY(newY);
-    },
-    [y]
-  );
-
-  useEffect(() => {
-    window.addEventListener("scroll", handleNavigation);
-    return () => {
-      window.removeEventListener("scroll", handleNavigation);
-    };
-  }, [handleNavigation]);
-
   return (
     <AppBar
       position="fixed"
