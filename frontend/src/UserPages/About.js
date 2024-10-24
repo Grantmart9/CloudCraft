@@ -35,7 +35,18 @@ export const About = () => {
           About
         </h1>
       </Fade>
-      <div className="flex text-center justify-center p-2"> hello world</div>
+      <div className="flex text-center justify-center p-2">
+        Environmental security focuses on safeguarding the natural environment
+        to ensure a healthy, sustainable quality of life for current and future
+        generations. It involves protecting ecosystems, ensuring access to clean
+        air, water, and soil, and mitigating the impacts of climate change and
+        pollution. By promoting sustainable practices, effective waste
+        management, and conservation efforts, environmental security aims to
+        prevent environmental degradation and enhance resilience against natural
+        disasters. This holistic approach ensures that communities can thrive in
+        a safe and stable environment, supporting both ecological balance and
+        human well-being.
+      </div>
     </div>
   );
 };
