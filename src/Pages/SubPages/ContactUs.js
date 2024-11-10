@@ -1,4 +1,5 @@
 import { CardContent, Card } from "@mui/material";
+import { CompanyAddrr, CompanyTel } from "components/Display/feutures";
 
 export const ContactUs = () => {
   return (
@@ -15,10 +16,10 @@ export const ContactUs = () => {
           sx={{ color: "whitesmoke" }}
         >
           <div className="flex text-center justify-center">
-            Telephone: + 27 21 555 3340
+            Telephone: {CompanyTel}
           </div>
           <div className="flex text-center justify-center">
-            Address: 22 Bolt Avenue, Montague Gardens, Cape Town
+            Address: {CompanyAddrr}
           </div>
         </CardContent>
       </Card>
@@ -38,10 +39,10 @@ export const ContactUsMain = ({topBarOn,isResponsiveSize}) => {
           sx={{ color: "whitesmoke" }}
         >
           <div className="flex text-center justify-center">
-            Telephone: + 27 21 555 3340
+            Telephone: {CompanyTel}
           </div>
           <div className="flex text-center justify-center">
-            Address: 22 Bolt Avenue, Montague Gardens, Cape Town
+            Address: {CompanyAddrr}
           </div>
         </CardContent>
       </Card>

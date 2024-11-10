@@ -20,7 +20,6 @@ export const layoutbgcolor = "black";
 export const pagebgcolor = "#7d9db5";
 export const contentbgcolor = layoutbgcolor;
 
-
 // Text font //
 export const AppFont = "Roboto, sans-serif";
 
@@ -33,7 +32,9 @@ export const TopBarButtonStyle = {
 };
 
 // Add company name here //
-export const CompanyName = "Company Name";
+export const CompanyName = "CloudCraft";
+export const CompanyTel = "+ 27 61 417 0615";
+export const CompanyAddrr = "19 Ralph Crescent, Kuilsriver, Cape Town"
 
 export const ServiceList = [
   {

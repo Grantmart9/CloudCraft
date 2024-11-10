@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import Fade from "@mui/material/Fade";
 import { Size } from "components/Display/media-query";
 import Rigging from "Videos/Rigging.mp4";
-import { AppFont, layoutbgcolor } from "components/Display/feutures";
+import { AppFont, CompanyName, layoutbgcolor } from "components/Display/feutures";
 import CardActions from "@mui/material/CardActions";
 import CardContent from "@mui/material/CardContent";
 import Button from "@mui/material/Button";
@@ -13,6 +13,17 @@ import { Enquire } from "./SubPages/Enquire";
 const LandingContext = () => {
   return (
     <div>
+      <div
+        style={{
+          fontFamily: AppFont,
+          color: "white",
+          backgroundColor: layoutbgcolor,
+          border: "none",
+        }}
+        className="text-lg text-center justify-center pt-3"
+      >
+        Welcome to Cloudcraft - Innovating the Future of Development
+      </div>
       <CardContent
         className="flex text-center justify-center"
         style={{
@@ -22,11 +33,18 @@ const LandingContext = () => {
           border: "none",
         }}
       >
-        At Cape Point Rigging, we are passionate about providing a complete
-        suite of high-quality rigging services to our clients. With decades of
-        experience in the industry and a passion for sailing, we have become a
-        trusted name for boat owners and boat builders in need of rigging
-        solutions.
+        At Cloudcraft, we are dedicated to transforming ideas into reality
+        through cutting-edge technology and innovative development solutions.
+        With a team of experienced professionals, we specialize in delivering
+        tailored software applications and web solutions that drive growth and
+        enhance user experiences. Our commitment to quality, creativity, and
+        collaboration ensures that each project is handled with the utmost care,
+        resulting in products that not only meet but exceed your expectations.
+        Whether you are a startup looking to establish your online presence or
+        an established enterprise seeking to modernize your systems, we are here
+        to partner with you every step of the way. Explore our services, view
+        our portfolio, and discover how Cloudcraft can help you achieve your
+        goals and stay ahead in today’s fast-paced digital world.
       </CardContent>
       <CardActions
         className="flex align-center justify-center"
@@ -37,8 +55,11 @@ const LandingContext = () => {
           border: "none",
         }}
       >
-        <Button href="/AboutUs" sx={{ bgcolor: "GrayText", color: "whitesmoke" }}>
-          Read more about Cape Point Rigging
+        <Button
+          href="/AboutUs"
+          sx={{ bgcolor: "GrayText", color: "whitesmoke" }}
+        >
+          Read more about {CompanyName}
         </Button>
       </CardActions>
     </div>

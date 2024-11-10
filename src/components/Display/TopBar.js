@@ -5,7 +5,7 @@ import MenuIcon from "@mui/icons-material/Menu";
 import IconButton from "@mui/material/IconButton";
 import { Size } from "./media-query";
 import Container from "@mui/material/Container";
-import Logo from "Images/capepointrigging.png";
+import Logo from "Images/icon.png";
 import {
   layoutbgcolor,
   CompanyName,
@@ -65,7 +65,7 @@ export const TopBar = ({ setTopBarOn }) => {
           </IconButton>
           <Container></Container>
           <div style={{ marginRight: "45px" }} className="p-1">
-            <img width={150} src={Logo} />
+            <img width={180} src={Logo} />
           </div>
         </Toolbar>
       )}
