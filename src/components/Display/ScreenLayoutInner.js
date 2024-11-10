@@ -20,7 +20,7 @@ export const ScreenLayoutInner = ({ topBarOn }) => {
         <Route path={Routes[2].path}>
           <Services topBarOn={topBarOn} />
         </Route>
-        <Route path={Routes[5].path}>
+        <Route path={Routes[3].path}>
           <Contact topBarOn={topBarOn} />
         </Route>
         <Route path="/">

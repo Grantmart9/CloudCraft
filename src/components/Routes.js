@@ -24,18 +24,6 @@ export const Routes = [
     backgroundImage: image_3,
   },
   {
-    path: "https://sparcraftmasts.co.za/",
-    name: "Spacecraft Masts",
-    pageHeader: "",
-    backgroundImage: image_4,
-  },
-  {
-    path: "https://furlcraft.com/",
-    name: "Furlcraft",
-    pageHeader: "Fun things to do",
-    backgroundImage: image_5,
-  },
-  {
     path: "/contactus",
     name: "Contact Us",
     pageHeader: "Fun things to do",
