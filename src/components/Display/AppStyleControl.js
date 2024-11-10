@@ -1,4 +1,4 @@
-// Images //
+// Service Images //
 import I1 from "Images/I1.jpg";
 import I2 from "Images/I2.jpg";
 import I3 from "Images/I3.jpeg";
@@ -8,29 +8,7 @@ import I6 from "Images/I6.jpg";
 import I7 from "Images/I7.jpg";
 import I8 from "Images/I8.jpg";
 
-// Text colors //
-export const topbartextcolor = "#73787a";
-export const cardbgcolor = "#5a5c5b";
-export const textcolor = "#cccaca";
-export const pagetitlecolor = "#73787a";
-export const cardtitlecolor = "#cccaca";
-
-// Background colors //
-export const layoutbgcolor = "#12181a";
-export const pagebgcolor = "#7d9db5";
-export const contentbgcolor = layoutbgcolor;
-
-// Text font //
-export const AppFont = "Roboto, sans-serif";
-
-// Button Styling //
-export const ButtonStyle = { bgcolor: "transparent", color: "whitesmoke" };
-
-// Add company name here //
-export const CompanyName = "CloudCraft";
-export const CompanyTel = "+ 27 61 417 0615";
-export const CompanyAddrr = "19 Ralph Crescent, Kuilsriver, Cape Town";
-
+// Service List //
 export const ServiceList = [
   {
     service: "Custom Web Application Development",
@@ -73,3 +51,29 @@ export const ServiceList = [
     text: "Launching your application is just the beginning. Our maintenance and support services give you peace of mind by ensuring your software stays up-to-date, secure, and optimized for the best performance. From routine updates to technical support and bug fixes, we’re here to keep your software running smoothly. Trust",
   },
 ];
+
+// Text color //
+export const textcolor = "#cccaca";
+
+// Background colors //
+export const layoutbgcolor = "#12181a";
+export const pagebgcolor = "#7d9db5";
+export const masterbgcolor = "#262c2e";
+
+// Text font //
+export const AppFont = "Roboto, sans-serif";
+
+// Button Styling //
+export const ButtonStyle = { bgcolor: "transparent", color: "whitesmoke" };
+
+// Add company name here //
+export const CompanyName = "CloudCraft";
+
+export const CompanyTel = "+ 27 61 417 0615";
+export const CompanyAddrr = "19 Ralph Crescent, Kuilsriver, Cape Town";
+
+
+
+
+
+

@@ -1,8 +1,7 @@
 import { Size } from "components/Display/media-query";
-import { Fade } from "@mui/material";
 import { TextField } from "@mui/material";
 import { Button } from "@mui/material";
-import { AppFont, layoutbgcolor } from "components/Display/feutures";
+import { AppFont, layoutbgcolor } from "components/Display/AppStyleControl";
 
 export const Enquire = () => {
   const size = Size();

@@ -1,21 +1,8 @@
 import React, { useEffect } from "react";
-import Fade from "@mui/material/Fade";
-import Typography from "@mui/material/Typography";
-import Button from "@mui/material/Button";
-import { CardContent, TextField } from "@mui/material";
 import { Size } from "components/Display/media-query";
-import { Routes } from "components/Routes";
-import Box from "@mui/material/Box";
-import Card from "@mui/material/Card";
 import { ContactUsMain } from "./SubPages/ContactUs";
-import { RenderHeader } from "components/Display/PageHeader";
-import { PageFooter } from "components/Display/PageFooter";
 import { Enquire } from "./SubPages/Enquire";
-import {
-  AppFont,
-  contentbgcolor,
-  layoutbgcolor,
-} from "components/Display/feutures";
+import { layoutbgcolor } from "components/Display/AppStyleControl";
 import Rigging from "Videos/Rigging.mp4";
 import ContactImage from "Images/icon.png";
 import { SocialMediaIcons } from "components/Display/SocialMedia";

@@ -3,12 +3,10 @@ import { Fade } from "@mui/material";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import Typography from "@mui/material/Typography";
-import CardActions from "@mui/material/CardActions";
-import Button from "@mui/material/Button";
-import { AppFont, layoutbgcolor } from "components/Display/feutures";
+import { layoutbgcolor } from "components/Display/AppStyleControl";
 // Images //
 
-import { ServiceList } from "components/Display/feutures";
+import { ServiceList } from "components/Display/AppStyleControl";
 
 export const ServicesSub = () => {
   const size = Size();

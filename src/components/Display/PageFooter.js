@@ -1,6 +1,5 @@
 import React from "react";
-
-import { layoutbgcolor } from "./feutures";
+import { layoutbgcolor } from "./AppStyleControl";
 import { AboutUs } from "Pages/SubPages/AboutUs";
 import { ContactUs } from "Pages/SubPages/ContactUs";
 import { SocialMediaIcons } from "./SocialMedia";

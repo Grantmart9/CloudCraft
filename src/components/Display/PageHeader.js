@@ -1,6 +1,5 @@
 import React from "react";
-import { Slide } from "@mui/material";
-import { pagetitlecolor, AppFont } from "components/Display/feutures";
+import { AppFont, textcolor } from "components/Display/AppStyleControl";
 
 export const RenderHeader = ({ pageHeader, topBarOn, isResponsiveSize }) => (
   <div>
@@ -8,14 +7,14 @@ export const RenderHeader = ({ pageHeader, topBarOn, isResponsiveSize }) => (
       <div>
         {isResponsiveSize ? (
           <h1
-            style={{ color: pagetitlecolor, fontFamily: AppFont }}
+            style={{ color: textcolor, fontFamily: AppFont }}
             className="text-center justify-center text-3xl mt-40"
           >
             {pageHeader}
           </h1>
         ) : (
           <h1
-            style={{ color: pagetitlecolor, fontFamily: AppFont }}
+            style={{ color: textcolor, fontFamily: AppFont }}
             className="text-center justify-center text-3xl mt-16"
           >
             {pageHeader}
@@ -26,14 +25,14 @@ export const RenderHeader = ({ pageHeader, topBarOn, isResponsiveSize }) => (
       <div>
         {isResponsiveSize ? (
           <h1
-            style={{ color: pagetitlecolor, fontFamily: AppFont }}
+            style={{ color: textcolor, fontFamily: AppFont }}
             className="text-center justify-center  text-3xl mt-16"
           >
             {pageHeader}
           </h1>
         ) : (
           <h1
-            style={{ color: pagetitlecolor, fontFamily: AppFont }}
+            style={{ color: textcolor, fontFamily: AppFont }}
             className="text-center justify-center text-3xl mt-16"
           >
             {pageHeader}

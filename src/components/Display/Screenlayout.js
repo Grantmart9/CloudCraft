@@ -4,7 +4,7 @@ import { ScreenLayoutInner } from "./ScreenLayoutInner";
 import { SideBar } from "./SideBar";
 import { Slide } from "@mui/material";
 import { Size } from "components/Display/media-query";
-import { layoutbgcolor } from "./feutures";
+import { layoutbgcolor, masterbgcolor } from "./AppStyleControl";
 
 export const ScreenLayout = () => {
   const size = Size();
@@ -14,7 +14,7 @@ export const ScreenLayout = () => {
     setTopBarOn((prev) => !prev);
   };
 
-  const isResponsiveSize = ["XS", "SM","MD","L"].includes(size);
+  const isResponsiveSize = ["XS", "SM", "MD", "L"].includes(size);
 
   return (
     <div
@@ -22,11 +22,12 @@ export const ScreenLayout = () => {
         display: "flex",
         flexDirection: "column",
         width: "100vw",
+        backgroundColor:masterbgcolor
       }}
     >
       <TopBar setTopBarOn={toggleTopBar} />
       {topBarOn && (
-        <div >
+        <div>
           {isResponsiveSize ? (
             <div>
               <Slide in={true} timeout={1200} direction={"down"}>
@@ -52,19 +53,15 @@ export const ScreenLayout = () => {
               <Slide in={true} direction="right" timeout={1200}>
                 <div
                   style={{
-                    backgroundColor: layoutbgcolor,
                     position: "fixed",
                     height: "100vh",
-                    paddingTop:"40pt",
+                    paddingTop: "40pt",
                     width: "200px",
                     zIndex: 1000, // Ensure it’s on top of other content
                     backgroundColor: layoutbgcolor,
                   }}
                 >
-                  <SideBar
-                    style={{ backgroundColor: layoutbgcolor }}
-                    setTopBarOn={toggleTopBar}
-                  />
+                  <SideBar setTopBarOn={toggleTopBar} />
                 </div>
               </Slide>
               <div

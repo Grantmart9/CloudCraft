@@ -3,7 +3,7 @@ import {
   CompanyAddrr,
   CompanyTel,
   layoutbgcolor,
-} from "components/Display/feutures";
+} from "components/Display/AppStyleControl";
 
 export const ContactUs = () => {
   return (

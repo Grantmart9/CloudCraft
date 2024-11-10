@@ -1,7 +1,5 @@
 import React, { useEffect } from "react";
 import { Size } from "components/Display/media-query";
-import { Routes } from "components/Routes";
-import { RenderHeader } from "components/Display/PageHeader";
 import { PageFooter } from "components/Display/PageFooter";
 import { ServicesSubMain } from "./SubPages/ServicesSub";
 

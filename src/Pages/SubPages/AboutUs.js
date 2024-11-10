@@ -10,8 +10,7 @@ import I5 from "Images/I5.jpg";
 import I6 from "Images/I6.jpg";
 import I7 from "Images/I7.jpg";
 import I8 from "Images/I8.jpg";
-
-import { layoutbgcolor } from "components/Display/feutures";
+import { layoutbgcolor } from "components/Display/AppStyleControl";
 
 export const AboutUs = () => {
   return (

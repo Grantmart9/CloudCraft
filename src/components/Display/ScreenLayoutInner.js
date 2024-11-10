@@ -5,11 +5,10 @@ import { About } from "Pages/About";
 import { Contact } from "Pages/Contact";
 import { Services } from "Pages/Services";
 import { Routes } from "components/Routes";
-import { layoutbgcolor } from "./feutures";
 
 export const ScreenLayoutInner = ({ topBarOn }) => {
   return (
-    <div >
+    <div>
       <Switch>
         <Route path={Routes[0].path}>
           <Landing topBarOn={topBarOn} />

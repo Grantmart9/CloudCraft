@@ -6,12 +6,7 @@ import IconButton from "@mui/material/IconButton";
 import { Size } from "./media-query";
 import Container from "@mui/material/Container";
 import Logo from "Images/icon.png";
-import {
-  layoutbgcolor,
-  CompanyName,
-  topbartextcolor,
-  AppFont,
-} from "./feutures";
+import { layoutbgcolor, CompanyName, AppFont, textcolor } from "./AppStyleControl";
 
 export const TopBar = ({ setTopBarOn }) => {
   var size = Size();
@@ -37,7 +32,7 @@ export const TopBar = ({ setTopBarOn }) => {
             aria-controls="menu-appbar"
             aria-haspopup="true"
             onClick={setTopBarOn}
-            color={topbartextcolor}
+            color={textcolor}
           >
             <MenuIcon
               style={{
@@ -55,7 +50,7 @@ export const TopBar = ({ setTopBarOn }) => {
             aria-controls="menu-appbar"
             aria-haspopup="true"
             onClick={setTopBarOn}
-            color={topbartextcolor}
+            color={textcolor}
           >
             <MenuIcon
               style={{
