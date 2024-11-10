@@ -17,7 +17,7 @@ import {
   layoutbgcolor,
 } from "components/Display/feutures";
 import Rigging from "Videos/Rigging.mp4";
-import ContactImage from "Images/contact.jpeg";
+import ContactImage from "Images/icon.png";
 import { SocialMediaIcons } from "components/Display/SocialMedia";
 
 export const Contact = ({ topBarOn }) => {

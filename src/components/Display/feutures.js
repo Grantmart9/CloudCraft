@@ -24,12 +24,7 @@ export const contentbgcolor = layoutbgcolor;
 export const AppFont = "Roboto, sans-serif";
 
 // Button Styling //
-export const TopBarButtonStyle = {
-  bgcolor: "transparent",
-  color: "white",
-  maxHeight: "22pt",
-  fontType: AppFont,
-};
+export const ButtonStyle = { bgcolor: "transparent", color: "whitesmoke" };
 
 // Add company name here //
 export const CompanyName = "CloudCraft";

@@ -45,9 +45,6 @@ export const ServicesSub = () => {
                   {service.text}
                 </Typography>
               </CardContent>
-              <CardActions>
-                <Button size="small">Read more</Button>
-              </CardActions>
             </Card>
           ))}
         </div>
@@ -91,9 +88,6 @@ export const ServicesSubMain = () => {
                   {service.text}
                 </Typography>
               </CardContent>
-              <CardActions>
-                <Button size="small">Read more</Button>
-              </CardActions>
             </Card>
           ))}
         </div>

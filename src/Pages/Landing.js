@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import Fade from "@mui/material/Fade";
 import { Size } from "components/Display/media-query";
 import Rigging from "Videos/Rigging.mp4";
-import { AppFont, CompanyName, layoutbgcolor } from "components/Display/feutures";
+import { AppFont, ButtonStyle, CompanyName, layoutbgcolor } from "components/Display/feutures";
 import CardActions from "@mui/material/CardActions";
 import CardContent from "@mui/material/CardContent";
 import Button from "@mui/material/Button";
@@ -57,7 +57,7 @@ const LandingContext = () => {
       >
         <Button
           href="/AboutUs"
-          sx={{ bgcolor: "GrayText", color: "whitesmoke" }}
+          sx={ButtonStyle}
         >
           Read more about {CompanyName}
         </Button>
