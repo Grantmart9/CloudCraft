@@ -11,8 +11,8 @@ export const SideBar = ({ setTopBarOn }) => {
   return (
     <div
       className={`grid grid-${
-        isResponsiveSize ? "cols-3" : "row-span-1"
-      } gap-1 mt-${isResponsiveSize ? "20" : "24"} px-2 pb-3`}
+        isResponsiveSize ? "cols-4" : "row-span-1"
+      } gap-1 mt-${isResponsiveSize ? "16" : "20"} px-2 pb-3`}
     >
       {Routes.map((page) => (
         <div className="flex align-center justify-center">
