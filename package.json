@@ -1,8 +1,8 @@
 {
-  "name": "capepointrigging",
-  "description": "product website",
+  "name": "cloudcraft",
+  "description": "Company Website",
   "author": "Grant Marthinus",
-  "homepage": "http://capepointrigging.co.za",
+  "homepage": "http://cloudcraft.co.za",
   "version": "1.0.0",
   "private": true,
   "dependencies": {
