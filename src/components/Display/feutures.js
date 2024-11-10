@@ -16,7 +16,7 @@ export const pagetitlecolor = "#73787a";
 export const cardtitlecolor = "#cccaca";
 
 // Background colors //
-export const layoutbgcolor = "black";
+export const layoutbgcolor = "#12181a";
 export const pagebgcolor = "#7d9db5";
 export const contentbgcolor = layoutbgcolor;
 

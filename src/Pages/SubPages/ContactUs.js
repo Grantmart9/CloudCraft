@@ -1,10 +1,10 @@
 import { CardContent, Card } from "@mui/material";
-import { CompanyAddrr, CompanyTel } from "components/Display/feutures";
+import { CompanyAddrr, CompanyTel, layoutbgcolor } from "components/Display/feutures";
 
 export const ContactUs = () => {
   return (
     <div className="flex align-center justify-center">
-      <Card sx={{ backgroundColor: "black" }}>
+      <Card sx={{ backgroundColor: layoutbgcolor }}>
         <CardContent
           className="flex align-center justify-center"
           sx={{ color: "whitesmoke" }}
@@ -33,7 +33,7 @@ export const ContactUsMain = ({topBarOn,isResponsiveSize}) => {
       
       className="flex align-center justify-center"
     >
-      <Card sx={{ backgroundColor: "black" }}>
+      <Card sx={{ backgroundColor: layoutbgcolor }}>
         <CardContent
           className="grid grid-flow-row gap0-2"
           sx={{ color: "whitesmoke" }}

@@ -14,7 +14,7 @@ import ImageList from "@mui/material/ImageList";
 import ImageListItem from "@mui/material/ImageListItem";
 import { Routes } from "components/Routes";
 import { RenderHeader } from "components/Display/PageHeader";
-import { AppFont, contentbgcolor } from "components/Display/feutures";
+import { AppFont, contentbgcolor, layoutbgcolor } from "components/Display/feutures";
 import { PageFooter } from "components/Display/PageFooter";
 import { AboutUsMain } from "./SubPages/AboutUs";
 
@@ -152,7 +152,7 @@ export const About = ({ topBarOn }) => {
     >
       <div
         style={{
-          backgroundColor: "black",
+          backgroundColor: layoutbgcolor,
           margin: 0,
           padding: 0,
           overflowX: "hidden",

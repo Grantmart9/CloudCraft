@@ -18,7 +18,7 @@ export const ServicesSub = () => {
     <Fade in={true} timeout={1800}>
       <div
         style={{
-          backgroundColor: "black",
+          backgroundColor: layoutbgcolor,
           paddingLeft: "15pt",
           paddingRight: "15pt",
         }}
@@ -64,7 +64,7 @@ export const ServicesSubMain = () => {
     <Fade in={true} timeout={1800}>
       <div
         style={{
-          backgroundColor: "black",
+          backgroundColor: layoutbgcolor,
           paddingLeft: "15pt",
           paddingRight: "15pt",
         }}

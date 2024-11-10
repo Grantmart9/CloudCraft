@@ -2,7 +2,7 @@ import { Size } from "components/Display/media-query";
 import { Fade } from "@mui/material";
 import { TextField } from "@mui/material";
 import { Button } from "@mui/material";
-import { AppFont } from "components/Display/feutures";
+import { AppFont, layoutbgcolor } from "components/Display/feutures";
 
 export const Enquire = () => {
   const size = Size();
@@ -13,7 +13,7 @@ export const Enquire = () => {
         fontFamily: AppFont,
         color: "white",
         fontSize: "20pt",
-        backgroundColor: "black",
+        backgroundColor: layoutbgcolor,
         paddingRight: "10pt",
         paddingLeft: "10pt",
         paddingBottom: "15pt",
@@ -28,7 +28,7 @@ export const Enquire = () => {
           style={{
             fontFamily: AppFont,
             color: "white",
-            backgroundColor: "black",
+            backgroundColor: layoutbgcolor,
             fontSize: "10pt",
           }}
           className="grid grid-rows-1 gap-1 mt-5"

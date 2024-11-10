@@ -14,11 +14,12 @@ import About9 from "Images/about9.jpg";
 import About10 from "Images/about10.jpg";
 import About11 from "Images/about11.jpg";
 import About12 from "Images/about12.jpg";
+import { layoutbgcolor } from "components/Display/feutures";
 
 export const AboutUs = () => {
   return (
     <div className="flex align-center justify-center">
-      <Card style={{ backgroundColor: "black" }}>
+      <Card style={{ backgroundColor: layoutbgcolor }}>
         <CardContent
           className="flex align-center justify-center"
           sx={{ color: "whitesmoke" }}
@@ -119,7 +120,7 @@ export const AboutUsMain = ({ topBarOn,isResponsiveSize }) => {
           ? "35pt"
           : "45pt",
       }}
-      sx={{ backgroundColor: "black" }}
+      sx={{ backgroundColor: layoutbgcolor }}
       className="rounded-md"
     >
       <div
