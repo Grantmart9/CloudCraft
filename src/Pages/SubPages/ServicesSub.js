@@ -15,8 +15,8 @@ export const ServicesSub = () => {
       <div
         style={{
           backgroundColor: layoutbgcolor,
-          paddingLeft: "15pt",
-          paddingRight: "15pt",
+          paddingLeft: "10pt",
+          paddingRight: "10pt",
         }}
       >
         <div
@@ -58,8 +58,8 @@ export const ServicesSubMain = ({topBarOn}) => {
       <div
         style={{
           backgroundColor: layoutbgcolor,
-          paddingLeft: "15pt",
-          paddingRight: "15pt",
+          paddingLeft: "10pt",
+          paddingRight: "10pt",
           paddingTop: topBarOn
             ? isResponsiveSize
               ? "50pt"
