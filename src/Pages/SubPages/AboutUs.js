@@ -14,13 +14,13 @@ import { layoutbgcolor, textcolor } from "components/Display/AppControl";
 
 export const AboutUs = () => {
   return (
-    <div className="flex align-center justify-center">
+    <div className="flex align-center justify-center my-auto">
       <Card style={{ backgroundColor: layoutbgcolor, boxShadow: "none" }}>
         <CardContent
           className="flex align-center justify-center"
           sx={{ color: textcolor }}
         >
-          ABOUT US
+          About Us
         </CardContent>
         <CardContent
           className="flex text-center justify-center"
@@ -38,6 +38,33 @@ export const AboutUs = () => {
 
 export const AboutUsMain = ({ topBarOn, isResponsiveSize }) => {
   const WovenImageList = () => {
+    const itemData = [
+      {
+        img: I1,
+      },
+      {
+        img: I2,
+      },
+      {
+        img: I3,
+      },
+      {
+        img: I4,
+      },
+      {
+        img: I5,
+      },
+      {
+        img: I6,
+      },
+      {
+        img: I7,
+      },
+      {
+        img: I8,
+      },
+    ];
+
     return (
       <ImageList sx={{ padding: "20pt" }} variant="woven" cols={3} gap={8}>
         {itemData.map((item) => (
@@ -53,32 +80,6 @@ export const AboutUsMain = ({ topBarOn, isResponsiveSize }) => {
     );
   };
 
-  const itemData = [
-    {
-      img: I1,
-    },
-    {
-      img: I2,
-    },
-    {
-      img: I3,
-    },
-    {
-      img: I4,
-    },
-    {
-      img: I5,
-    },
-    {
-      img: I6,
-    },
-    {
-      img: I7,
-    },
-    {
-      img: I8,
-    },
-  ];
   return (
     <div
       style={{

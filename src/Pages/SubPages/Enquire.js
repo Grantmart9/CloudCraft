@@ -8,8 +8,6 @@ import {
 } from "components/Display/AppControl";
 
 export const Enquire = () => {
-  const size = Size();
-  const isResponsiveSize = ["XS", "SM", "MD", "L"].includes(size);
   return (
     <div
       style={{

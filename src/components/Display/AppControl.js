@@ -24,8 +24,13 @@ export const ButtonStyle = { bgcolor: "transparent", color: "whitesmoke" };
 
 // Add company details here //
 export const CompanyName = "CloudCraft";
+
 export const CompanyTel = "+ 27 61 417 0615";
+
 export const CompanyAddrr = "19 Ralph Crescent, Kuilsriver, Cape Town";
+
+export const CompanyEmail = "cloudcraftEnquire.co.za";
+
 export const SocialMediaLinks = [
   { path: "https://instagram.com/johndoe" },
   { path: "https://instagram.com/johndoe" },
