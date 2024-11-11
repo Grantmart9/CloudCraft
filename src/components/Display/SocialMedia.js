@@ -2,7 +2,7 @@ import InstagramIcon from "@mui/icons-material/Instagram";
 import FacebookIcon from "@mui/icons-material/Facebook";
 import LocalPhoneIcon from "@mui/icons-material/LocalPhone";
 import WhatsAppIcon from "@mui/icons-material/WhatsApp";
-import { SocialMediaLinks } from "./AppStyleControl";
+import { SocialMediaLinks } from "./AppControl";
 import { Button } from "@mui/material";
 
 export const SocialMediaIcons = () => {

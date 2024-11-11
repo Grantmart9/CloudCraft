@@ -7,22 +7,59 @@ import {
   CompanyName,
   layoutbgcolor,
   textcolor,
-} from "components/Display/AppStyleControl";
+} from "components/Display/AppControl";
 import CardActions from "@mui/material/CardActions";
 import CardContent from "@mui/material/CardContent";
 import Button from "@mui/material/Button";
 import { PageFooter } from "components/Display/PageFooter";
 import { ServicesSub } from "Pages/SubPages/ServicesSub";
 import { Enquire } from "./SubPages/Enquire";
-import { TextAnimation } from "components/Display/TextTypeAnimation";
+import { TypeAnimation } from "react-type-animation";
 
 const LandingContext = () => {
+  const TextAnimation = () => {
+    const size = Size();
+    const isResponsiveSize = ["XS", "SM", "MD"].includes(size);
+    return (
+      <>
+        <TypeAnimation
+          sequence={[
+            // Same substring at the start will only be typed out once, initially
+            "Welcome ",
+            200, // wait 1s before replacing "Mice" with "Hamsters"
+            "Welcome to ",
+            300,
+            "Welcome to Cloudcraft - ",
+            300,
+            "Welcome to Cloudcraft - Innovating ",
+            400,
+            "Welcome to Cloudcraft - Innovating the ",
+            30,
+            "Welcome to Cloudcraft - Innovating the Future",
+            400,
+            "Welcome to Cloudcraft - Innovating the Future of",
+            300,
+            "Welcome to Cloudcraft - Innovating the Future of Development",
+            400,
+          ]}
+          wrapper="span"
+          speed={50}
+          style={{
+            fontSize: isResponsiveSize ? "1rem" : "1.5rem",
+            display: "inline-block",
+          }}
+          repeat={Infinity}
+        />
+      </>
+    );
+  };
+
   return (
     <div>
       <div
         style={{
           backgroundColor: layoutbgcolor,
-          color:textcolor
+          color: textcolor,
         }}
         className="text-lg text-center justify-center pt-3"
       >

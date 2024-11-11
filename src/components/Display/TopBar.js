@@ -6,7 +6,7 @@ import IconButton from "@mui/material/IconButton";
 import { Size } from "./media-query";
 import Container from "@mui/material/Container";
 import Logo from "Images/icon.png";
-import { layoutbgcolor, CompanyName, AppFont, textcolor } from "./AppStyleControl";
+import { layoutbgcolor, CompanyName, AppFont, textcolor } from "./AppControl";
 
 export const TopBar = ({ setTopBarOn }) => {
   var size = Size();

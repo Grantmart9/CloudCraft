@@ -4,7 +4,7 @@ import {
   CompanyTel,
   layoutbgcolor,
   textcolor,
-} from "components/Display/AppStyleControl";
+} from "components/Display/AppControl";
 
 export const ContactUs = () => {
   return (

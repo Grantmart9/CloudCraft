@@ -10,7 +10,7 @@ import I5 from "Images/I5.jpg";
 import I6 from "Images/I6.jpg";
 import I7 from "Images/I7.jpg";
 import I8 from "Images/I8.jpg";
-import { layoutbgcolor, textcolor } from "components/Display/AppStyleControl";
+import { layoutbgcolor, textcolor } from "components/Display/AppControl";
 
 export const AboutUs = () => {
   return (
@@ -84,11 +84,11 @@ export const AboutUsMain = ({ topBarOn, isResponsiveSize }) => {
       style={{
         paddingTop: topBarOn
           ? isResponsiveSize
-            ? "10pt"
-            : "50pt"
+            ? "50pt"
+            : "80pt"
           : isResponsiveSize
-          ? "35pt"
-          : "45pt",
+          ? "50pt"
+          : "80pt",
       }}
       sx={{ backgroundColor: layoutbgcolor }}
       className="rounded-md"

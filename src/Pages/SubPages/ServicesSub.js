@@ -3,8 +3,8 @@ import { Fade } from "@mui/material";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import Typography from "@mui/material/Typography";
-import { layoutbgcolor, textcolor } from "components/Display/AppStyleControl";
-import { ServiceList } from "components/Display/AppStyleControl";
+import { layoutbgcolor, textcolor } from "components/Display/AppControl";
+import { ServiceList } from "components/Display/AppControl";
 
 export const ServicesSub = () => {
   const size = Size();
@@ -49,7 +49,7 @@ export const ServicesSub = () => {
   );
 };
 
-export const ServicesSubMain = () => {
+export const ServicesSubMain = ({topBarOn}) => {
   const size = Size();
   const isResponsiveSize = ["XS", "SM", "MD", "L"].includes(size);
 
@@ -60,11 +60,18 @@ export const ServicesSubMain = () => {
           backgroundColor: layoutbgcolor,
           paddingLeft: "15pt",
           paddingRight: "15pt",
+          paddingTop: topBarOn
+            ? isResponsiveSize
+              ? "50pt"
+              : "80pt"
+            : isResponsiveSize
+            ? "50pt"
+            : "80pt",
         }}
       >
         <div
-          style={{ color:textcolor }}
-          className="text-2xl font-bold text-center justify-center pt-20 pb-5"
+          style={{ color: textcolor }}
+          className="text-2xl font-bold text-center justify-center pb-5"
         >
           Services
         </div>

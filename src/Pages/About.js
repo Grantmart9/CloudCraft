@@ -1,8 +1,6 @@
 import React, { useEffect } from "react";
 import { Size } from "components/Display/media-query";
-import { Routes } from "components/Routes";
-import { RenderHeader } from "components/Display/PageHeader";
-import { layoutbgcolor } from "components/Display/AppStyleControl";
+import { layoutbgcolor } from "components/Display/AppControl";
 import { PageFooter } from "components/Display/PageFooter";
 import { AboutUsMain } from "./SubPages/AboutUs";
 
@@ -36,11 +34,6 @@ export const About = ({ topBarOn }) => {
           overflowY: "hidden",
         }}
       >
-        <RenderHeader
-          pageHeader={Routes[1].pageHeader}
-          topBarOn={topBarOn}
-          isResponsiveSize={isResponsiveSize}
-        />
         <div>
           <AboutUsMain
             topBarOn={topBarOn}

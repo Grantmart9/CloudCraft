@@ -30,7 +30,7 @@ export const Services = ({ topBarOn }) => {
           width: "100%",
         }}
       >
-        <ServicesSubMain />
+        <ServicesSubMain topBarOn={topBarOn} />
       </div>
       <div
         style={{

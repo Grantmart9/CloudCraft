@@ -76,3 +76,19 @@ export const ServiceList = [
     text: "Launching your application is just the beginning. Our maintenance and support services give you peace of mind by ensuring your software stays up-to-date, secure, and optimized for the best performance. From routine updates to technical support and bug fixes, we’re here to keep your software running smoothly. Trust",
   },
 ];
+
+export const Routes = [
+  { path: "/home", name: "Home" },
+  {
+    path: "/aboutus",
+    name: "About Us",
+  },
+  {
+    path: "/service",
+    name: "Services",
+  },
+  {
+    path: "/contactus",
+    name: "Contact Us",
+  },
+];

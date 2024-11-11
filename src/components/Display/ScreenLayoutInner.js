@@ -4,7 +4,7 @@ import { Landing } from "Pages/Landing";
 import { About } from "Pages/About";
 import { Contact } from "Pages/Contact";
 import { Services } from "Pages/Services";
-import { Routes } from "components/Routes";
+import { Routes } from "components/Display/AppControl";
 
 export const ScreenLayoutInner = ({ topBarOn }) => {
   return (

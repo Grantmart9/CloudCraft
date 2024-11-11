@@ -2,7 +2,7 @@ import React, { useEffect } from "react";
 import { Size } from "components/Display/media-query";
 import { ContactUsMain } from "./SubPages/ContactUs";
 import { Enquire } from "./SubPages/Enquire";
-import { layoutbgcolor } from "components/Display/AppStyleControl";
+import { layoutbgcolor } from "components/Display/AppControl";
 import Rigging from "Videos/Rigging.mp4";
 import ContactImage from "Images/icon.png";
 import { SocialMediaIcons } from "components/Display/SocialMedia";

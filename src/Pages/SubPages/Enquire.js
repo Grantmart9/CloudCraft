@@ -5,7 +5,7 @@ import {
   AppFont,
   layoutbgcolor,
   textcolor,
-} from "components/Display/AppStyleControl";
+} from "components/Display/AppControl";
 
 export const Enquire = () => {
   const size = Size();

@@ -1,8 +1,8 @@
 import React from "react";
 import { Button } from "@mui/material";
-import { Routes } from "components/Routes";
+import { Routes } from "components/Display/AppControl";
 import { Size } from "components/Display/media-query";
-import { AppFont, ButtonStyle } from "./AppStyleControl";
+import { AppFont, ButtonStyle } from "./AppControl";
 
 export const SideBar = ({ setTopBarOn }) => {
   const size = Size();
