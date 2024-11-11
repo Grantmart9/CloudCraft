@@ -3,9 +3,7 @@ import { Fade } from "@mui/material";
 import Card from "@mui/material/Card";
 import CardContent from "@mui/material/CardContent";
 import Typography from "@mui/material/Typography";
-import { layoutbgcolor } from "components/Display/AppStyleControl";
-// Images //
-
+import { layoutbgcolor, textcolor } from "components/Display/AppStyleControl";
 import { ServiceList } from "components/Display/AppStyleControl";
 
 export const ServicesSub = () => {
@@ -22,7 +20,7 @@ export const ServicesSub = () => {
         }}
       >
         <div
-          style={{ color: "white" }}
+          style={{ color: textcolor }}
           className="text-2xl font-bold text-center justify-center pt-5 pb-5"
         >
           Services
@@ -65,7 +63,7 @@ export const ServicesSubMain = () => {
         }}
       >
         <div
-          style={{ color: "white" }}
+          style={{ color:textcolor }}
           className="text-2xl font-bold text-center justify-center pt-20 pb-5"
         >
           Services

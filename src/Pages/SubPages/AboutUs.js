@@ -10,21 +10,21 @@ import I5 from "Images/I5.jpg";
 import I6 from "Images/I6.jpg";
 import I7 from "Images/I7.jpg";
 import I8 from "Images/I8.jpg";
-import { layoutbgcolor } from "components/Display/AppStyleControl";
+import { layoutbgcolor, textcolor } from "components/Display/AppStyleControl";
 
 export const AboutUs = () => {
   return (
     <div className="flex align-center justify-center">
-      <Card style={{ backgroundColor: layoutbgcolor,boxShadow:"none" }}>
+      <Card style={{ backgroundColor: layoutbgcolor, boxShadow: "none" }}>
         <CardContent
           className="flex align-center justify-center"
-          sx={{ color: "whitesmoke" }}
+          sx={{ color: textcolor }}
         >
           ABOUT US
         </CardContent>
         <CardContent
           className="flex text-center justify-center"
-          sx={{ color: "whitesmoke" }}
+          sx={{ color: textcolor }}
         >
           We transform ideas into innovative software solutions with a focus on
           exceptional user experiences. Our experienced team delivers tailored
@@ -45,7 +45,6 @@ export const AboutUsMain = ({ topBarOn, isResponsiveSize }) => {
             <img
               srcSet={`${item.img}?w=161&fit=crop&auto=format&dpr=2 2x`}
               src={`${item.img}?w=161&fit=crop&auto=format`}
-              alt={item.title}
               loading="lazy"
             />
           </ImageListItem>
@@ -57,35 +56,27 @@ export const AboutUsMain = ({ topBarOn, isResponsiveSize }) => {
   const itemData = [
     {
       img: I1,
-      title: "Bed",
     },
     {
       img: I2,
-      title: "Kitchen",
     },
     {
       img: I3,
-      title: "Kitchen",
     },
     {
       img: I4,
-      title: "Kitchen",
     },
     {
       img: I5,
-      title: "Kitchen",
     },
     {
       img: I6,
-      title: "Kitchen",
     },
     {
       img: I7,
-      title: "Kitchen",
     },
     {
       img: I8,
-      title: "Kitchen",
     },
   ];
   return (
@@ -102,10 +93,10 @@ export const AboutUsMain = ({ topBarOn, isResponsiveSize }) => {
       sx={{ backgroundColor: layoutbgcolor }}
       className="rounded-md"
     >
-      <div sx={{ color: "whitesmoke" }}>
+      <div sx={{ color: textcolor }}>
         <div className="grid md:grid-cols-2 gap-0">
           <div
-            style={{ color: "white" }}
+            style={{ color: textcolor }}
             className="text-center justify-center p-4"
           >
             <div>

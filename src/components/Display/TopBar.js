@@ -60,7 +60,7 @@ export const TopBar = ({ setTopBarOn }) => {
           </IconButton>
           <Container></Container>
           <div style={{ marginRight: "45px" }} className="p-1">
-            <img width={180} src={Logo} />
+            <img width={200} src={Logo} />
           </div>
         </Toolbar>
       )}

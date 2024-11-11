@@ -7,6 +7,31 @@ import I5 from "Images/I5.jpg";
 import I6 from "Images/I6.jpg";
 import I7 from "Images/I7.jpg";
 import I8 from "Images/I8.jpg";
+///////////////////////////////
+
+// Text color //
+export const textcolor = "#cccaca";
+
+// Background colors //
+export const layoutbgcolor = "#12181a";
+export const masterbgcolor = "#262c2e";
+
+// Text font //
+export const AppFont = "Roboto, sans-serif";
+
+// Button Styling //
+export const ButtonStyle = { bgcolor: "transparent", color: "whitesmoke" };
+
+// Add company details here //
+export const CompanyName = "CloudCraft";
+export const CompanyTel = "+ 27 61 417 0615";
+export const CompanyAddrr = "19 Ralph Crescent, Kuilsriver, Cape Town";
+export const SocialMediaLinks = [
+  { path: "https://instagram.com/johndoe" },
+  { path: "https://instagram.com/johndoe" },
+  { path: "https://instagram.com/johndoe" },
+  { path: "tel:"+CompanyTel },
+];
 
 // Service List //
 export const ServiceList = [
@@ -51,28 +76,3 @@ export const ServiceList = [
     text: "Launching your application is just the beginning. Our maintenance and support services give you peace of mind by ensuring your software stays up-to-date, secure, and optimized for the best performance. From routine updates to technical support and bug fixes, we’re here to keep your software running smoothly. Trust",
   },
 ];
-
-// Text color //
-export const textcolor = "#cccaca";
-
-// Background colors //
-export const layoutbgcolor = "#12181a";
-export const pagebgcolor = "#7d9db5";
-export const masterbgcolor = "#262c2e";
-
-// Text font //
-export const AppFont = "Roboto, sans-serif";
-
-// Button Styling //
-export const ButtonStyle = { bgcolor: "transparent", color: "whitesmoke" };
-
-// Add company details here //
-export const CompanyName = "CloudCraft";
-export const CompanyTel = "+ 27 61 417 0615";
-export const CompanyAddrr = "19 Ralph Crescent, Kuilsriver, Cape Town";
-
-
-
-
-
-

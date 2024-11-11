@@ -2,7 +2,7 @@ import React from "react";
 import { Button } from "@mui/material";
 import { Routes } from "components/Routes";
 import { Size } from "components/Display/media-query";
-import { layoutbgcolor, AppFont, ButtonStyle } from "./AppStyleControl";
+import { AppFont, ButtonStyle } from "./AppStyleControl";
 
 export const SideBar = ({ setTopBarOn }) => {
   const size = Size();
@@ -12,7 +12,7 @@ export const SideBar = ({ setTopBarOn }) => {
     <div
       className={`grid grid-${
         isResponsiveSize ? "cols-4" : "row-span-1"
-      } gap-1 mt-${isResponsiveSize ? "16" : "20"} px-2 pb-3`}
+      } gap-1 mt-${isResponsiveSize ? "16" : "20"} px-2 pb-3 pt-2`}
     >
       {Routes.map((page) => (
         <div className="flex align-center justify-center">

@@ -6,6 +6,7 @@ import {
   ButtonStyle,
   CompanyName,
   layoutbgcolor,
+  textcolor,
 } from "components/Display/AppStyleControl";
 import CardActions from "@mui/material/CardActions";
 import CardContent from "@mui/material/CardContent";
@@ -13,48 +14,54 @@ import Button from "@mui/material/Button";
 import { PageFooter } from "components/Display/PageFooter";
 import { ServicesSub } from "Pages/SubPages/ServicesSub";
 import { Enquire } from "./SubPages/Enquire";
+import { TextAnimation } from "components/Display/TextTypeAnimation";
 
 const LandingContext = () => {
   return (
     <div>
       <div
         style={{
-          fontFamily: AppFont,
-          color: "white",
           backgroundColor: layoutbgcolor,
-          border: "none",
+          color:textcolor
         }}
         className="text-lg text-center justify-center pt-3"
       >
-        Welcome to Cloudcraft - Innovating the Future of Development
+        <TextAnimation />
       </div>
       <CardContent
-        className="flex text-center justify-center"
         style={{
           fontFamily: AppFont,
-          color: "white",
+          color: textcolor,
           backgroundColor: layoutbgcolor,
           border: "none",
         }}
       >
-        At Cloudcraft, we are dedicated to transforming ideas into reality
-        through cutting-edge technology and innovative development solutions.
-        With a team of experienced professionals, we specialize in delivering
-        tailored software applications and web solutions that drive growth and
-        enhance user experiences. Our commitment to quality, creativity, and
-        collaboration ensures that each project is handled with the utmost care,
-        resulting in products that not only meet but exceed your expectations.
-        Whether you are a startup looking to establish your online presence or
-        an established enterprise seeking to modernize your systems, we are here
-        to partner with you every step of the way. Explore our services, view
-        our portfolio, and discover how Cloudcraft can help you achieve your
-        goals and stay ahead in today’s fast-paced digital world.
+        <div className="text-center justify-center">
+          At Cloudcraft, we are dedicated to transforming ideas into reality
+          through cutting-edge technology and innovative development solutions.
+          With a team of experienced professionals, we specialize in delivering
+          tailored software applications and web solutions that drive growth and
+          enhance user experiences.
+        </div>
+        <div className="text-center justify-center mt-3">
+          Our commitment to quality, creativity, and collaboration ensures that
+          each project is handled with the utmost care, resulting in products
+          that not only meet but exceed your expectations. Whether you are a
+          startup looking to establish your online presence or an established
+          enterprise seeking to modernize your systems, we are here to partner
+          with you every step of the way.
+        </div>
+        <div className="text-center justify-center mt-3">
+          Explore our services, view our portfolio, and discover how Cloudcraft
+          can help you achieve your goals and stay ahead in today’s fast-paced
+          digital world.
+        </div>
       </CardContent>
       <CardActions
         className="flex align-center justify-center"
         style={{
           fontFamily: AppFont,
-          color: "white",
+          color: textcolor,
           backgroundColor: layoutbgcolor,
           border: "none",
         }}
