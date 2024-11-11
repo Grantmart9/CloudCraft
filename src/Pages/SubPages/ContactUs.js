@@ -31,7 +31,7 @@ export const ContactUs = () => {
 export const ContactUsMain = () => {
   return (
     <div className="flex align-center justify-center">
-      <Card sx={{ backgroundColor: layoutbgcolor }}>
+      <Card sx={{ backgroundColor: layoutbgcolor,boxShadow:"none" }}>
         <CardContent
           className="grid grid-flow-row gap0-2"
           sx={{ color: textcolor }}
