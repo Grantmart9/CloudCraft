@@ -3,6 +3,7 @@ import { TextField } from "@mui/material";
 import { Button } from "@mui/material";
 import {
   AppFont,
+  ButtonStyle,
   layoutbgcolor,
   textcolor,
 } from "components/Display/AppControl";
@@ -106,7 +107,7 @@ export const Enquire = () => {
                 color: textcolor,
                 fontFamily: AppFont,
                 maxWidth: "100pt",
-                bgcolor: "gray",
+                bgcolor: ButtonStyle,
               }}
             >
               Send
