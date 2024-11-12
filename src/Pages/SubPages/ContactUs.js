@@ -29,20 +29,3 @@ export const ContactUs = () => {
     </div>
   );
 };
-
-export const ContactUsMain = () => {
-  return (
-    <div className="flex align-center justify-center">
-      <Card sx={{ backgroundColor: layoutbgcolor, boxShadow: "none" }}>
-        <CardContent
-          className="grid grid-flow-row gap-0"
-          sx={{ color: textcolor }}
-        >
-          <div className="flex text-center justify-center">{CompanyTel}</div>
-          <div className="flex text-center justify-center">{CompanyAddrr}</div>
-          <div className="flex text-center justify-center">{CompanyEmail}</div>
-        </CardContent>
-      </Card>
-    </div>
-  );
-};

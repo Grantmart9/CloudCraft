@@ -1,9 +1,9 @@
 import React, { useEffect } from "react";
 import { Size } from "components/Display/media-query";
-import { ContactUsMain } from "./SubPages/ContactUs";
+import { ContactUs } from "./SubPages/ContactUs";
 import { Enquire } from "./SubPages/Enquire";
 import { layoutbgcolor } from "components/Display/AppControl";
-import Rigging from "Videos/Rigging.mp4";
+import Vid from "Videos/Vid.mp4";
 import ContactImage from "Images/icon.png";
 import { SocialMediaIcons } from "components/Display/SocialMedia";
 
@@ -51,7 +51,7 @@ export const Contact = ({ topBarOn }) => {
             zIndex: 1,
             width: "100%",
           }}
-          src={Rigging}
+          src={Vid}
         />
       </div>
       <div
@@ -64,18 +64,16 @@ export const Contact = ({ topBarOn }) => {
         <div>
           <Enquire />
         </div>
+
         <div
-          className="grid grid-flow-row gap-0"
+          className="grid grid-rows-2 gap-2"
           style={{ backgroundColor: layoutbgcolor }}
         >
-          <ContactUsMain
+          <ContactUs
             topBarOn={topBarOn}
             isResponsiveSize={isResponsiveSize}
           />
-          <div className="flex align-center justify-center">
-            <img src={ContactImage} width={"45%"} />
-          </div>
-          <div className="py-4">
+          <div>
             <SocialMediaIcons />
           </div>
         </div>

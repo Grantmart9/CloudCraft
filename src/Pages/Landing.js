@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { Size } from "components/Display/media-query";
-import Rigging from "Videos/Rigging.mp4";
+import Vid from "Videos/Vid.mp4";
 import {
   AppFont,
   ButtonStyle,
@@ -21,26 +21,21 @@ const LandingContext = () => {
     const size = Size();
     const isResponsiveSize = ["XS", "SM", "MD"].includes(size);
     return (
-      <>
+      <div style={{minHeight:"45pt"}}>
         <TypeAnimation
           sequence={[
-            // Same substring at the start will only be typed out once, initially
-            "Welcome ",
-            200, // wait 1s before replacing "Mice" with "Hamsters"
-            "Welcome to ",
-            300,
             "Welcome to Cloudcraft - ",
             300,
             "Welcome to Cloudcraft - Innovating ",
-            400,
+            200,
             "Welcome to Cloudcraft - Innovating the ",
-            30,
+            200,
             "Welcome to Cloudcraft - Innovating the Future",
-            400,
+            200,
             "Welcome to Cloudcraft - Innovating the Future of",
-            300,
+            200,
             "Welcome to Cloudcraft - Innovating the Future of Development",
-            400,
+            2000,
           ]}
           wrapper="span"
           speed={50}
@@ -50,7 +45,7 @@ const LandingContext = () => {
           }}
           repeat={Infinity}
         />
-      </>
+      </div>
     );
   };
 
@@ -103,9 +98,7 @@ const LandingContext = () => {
           border: "none",
         }}
       >
-        <Button href="/AboutUs" sx={ButtonStyle}>
-          Read more about {CompanyName}
-        </Button>
+        <Button sx={ButtonStyle}  href="/AboutUs">Read more about {CompanyName}</Button>
       </CardActions>
     </div>
   );
@@ -141,7 +134,7 @@ export const Landing = ({ topBarOn }) => {
             zIndex: 1,
             width: "100%",
           }}
-          src={Rigging}
+          src={Vid}
         />
       </div>
       <div
